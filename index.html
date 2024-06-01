@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>
+             TataAirIndia.com
+        </title>
+        <link rel="stylesheet" href="main_page.css">
+        <link  rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Glide.js/3.4.1/css/glide.theme.min.css"
+        integrity="sha512-wCwx+DYp8LDIaTem/rpXubV/C1WiNRsEVqoztV0NZm8tiTvsUeSlA/Uz02VTGSiqfzAHD4RnqVoevMcRZgYEcQ==" 
+        crossorigin="anonymous" 
+        referrerpolicy="no-referrer" />
+ <link  rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Glide.js/3.4.1/css/glide.core.min.css"
+        integrity="sha512-wYsVD8ho6rJOAo1Xf92gguhOGQ+aWgxuyKydjyEax4bnuEmHUt6VGwgpUqN8VlB4w50d0nt+ZL+3pgaFMAmdNQ=="
+        crossorigin="anonymous" 
+        referrerpolicy="no-referrer" />
+ <link  rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" 
+        integrity="sha512-SfTiTlX6kk+qitfevl/7LibUOeJWlt9rbyDn92a1DqWOw9vWG2MFoays0sgObmWazO5BQPiFucnnEAjpAB+/Sw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    </head>
+    <body id="main_bg">
+                 <fieldset id="header_field">
+                          <img src="Image/20211030_183129.png" id="logo_img"/>
+                          <h1>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+                            <span id="header_title1" style="position: absolute; left: 800px;">Let's Explore India</span></h1><hr>
+                 </fieldset>
+                 <fieldset id="header_field2">
+                    <nav>
+                        <div id=nav>
+                            <li><a  class="dropbtn1" href="index.html">Home</a></li>
+                        <div class="dropdown4"> 
+                            <li><button class="dropbtn4" >Express extras</button>
+                                <div class="dropdown-content4">
+                                    <a href="frame's/baggage.html" target="_parent">Excess Baggage</a>
+                                    <a href="frame's/food.html" target="_parent">Express cafe- Food Menu</a>
+                                </div>
+                             </li>
+                        </div>
+                 
+                        <div class="dropdown6"> 
+                            <li><button class="dropbtn6">destination</button>
+                                <div class="dropdown-content6">
+                                    <a href="frame's/india.html" target="_parent">Indian</a>
+                                </div>
+                             </li>
+                        </div>
+                        <div class="dropdown"> 
+                        <li><button class="dropbtn2" >My account</button>
+                            <div class="dropdown-content">
+                                <a href="Login.html">Login</a>
+                                <a href="Signup.html">Sign up</a>
+                                <a href="Account_details.php">My account</a>
+                            </div>
+                         </li>
+                        </div>
+                     
+                    </div>
+                </nav><br>
+            </fieldset><br>
+            <div id="flex">
+            <fieldset id="middle" >
+                <h1 id="mid_title1">Search Airline Tickets<br>
+                <span id="mid_title2">Fly anywhere. Fly everywhere</span></h1>
+                <form name="myform_1" method="post" action="passenger_details.html" onsubmit=" return validateform_index()">
+                    <table>
+                        <tr>
+                            <td > <label for="From" id="mid_title_font">FROM:</label><br>
+                                 <select class="cheak_box" name="city" id="price_for_id" >
+                                     <option hidden id="in_2" name="sel" value="Selected">DEPARTURE Airport</option>
+                                     <option value="Bengaluru"            Name="Bengaluru"          >Bengaluru</option>
+                                     <option value="Chennai"              Name="Chennai"            >Chennai</option>
+                                     <option value="Delhi"                Name="Delhi"              >Delhi</option>
+                                     <option value="Hyderabad"            Name="Hyderabad"          >Hyderabad</option>
+                                     <option value="Jharkhand"            Name="Jharkhand"          >Jharkhand</option>
+                                     <option value="Kolkota"              Name="Kolkota"            >kolkata</option>
+                                     <option value="Mumbai"               Name="Mumbai"             >Mumbai</option>
+                                     <option value="Tirupathi"            Name="Tirupathi"          >Tirupathi</option>
+                                     <option value="kerala-TRV"   Name="kerala-TRV" >kerala-TRV</option>
+                                  </select>
+                            </td>
+                            <td id="dir_td"><img src="Image/two-rotating-arrows.png" id="dir_img" ></td>
+                            <td><label for="To" id="mid_title_font">To:</label><br>
+                                    <select class="cheak_box" name="City1"  id="price_for_id1" >
+                                        <option hidden id="in_2" name="sel" value="Selected">Arrival Airport</option>
+                                        <option value="Bengaluru"            Name="Bengaluru"          >Bengaluru</option>
+                                        <option value="Chennai"              Name="Chennai"            >Chennai</option>
+                                        <option value="Delhi"                Name="Delhi"              >Delhi</option>
+                                        <option value="Hyderabad"            Name="Hyderabad"          >Hyderabad</option>
+                                        <option value="Jharkhand"            Name="Jharkhand"          >Jharkhand</option>
+                                        <option value="Kolkota"              Name="Kolkota"            >kolkata</option>
+                                        <option value="Mumbai"               Name="Mumbai"             >Mumbai</option>
+                                        <option value="Tirupathi"            Name="Tirupathi"          >Tirupathi</option>
+                                        <option value="kerala-TRV"   Name="kerala-TRV" >kerala-TRV</option>
+                                      </select>
+                                </select>
+                             </td>
+                         </tr>
+                    </table><br>
+                    <table>
+                        <div class="flight-type" name="flight-type" id="flight-type">
+                        <tr>
+                            <td></td><td></td> <td></td> <td></td>    
+                             <td></td><td></td> <td></td> <td></td> 
+                             <td></td><td></td> <td></td> <td></td>    
+                             <td></td><td></td> <td></td> <td></td> 
+                             <td></td><td></td> <td></td> <td></td>    
+                             <td></td> 
+                           <td>
+                            <input type="radio" id="test1" name="radio" onclick="oneway(0)" >
+                            <label for="test1" id="label1" >One way</label>
+                            &emsp;&emsp;
+                            <input type="radio" id="test2" name="radio" onclick="oneway(1)">
+                            <label for="test2" id="label1" >Round Trip</label>
+                           </td>
+                             <td></td><td></td> <td></td> <td></td>    
+                             <td></td><td></td> <td></td> <td></td>                   
+                             <td></td><td></td> <td></td> <td></td>
+                             <td></td><td></td> <td></td> <td></td>
+                             <td></td><td></td> <td></td> <td></td>
+                            
+                                      
+                                      <td >   <label for="DEPARTURE DATA" id="mid_title_font" >DEPARTURE:</label><br>
+                                        <input type="date" name="Departure" id="date" class="date" >                    
+                                     </td>
+                                     <td >                             
+                                       <label for="RETURN DATE:" id="mid_title_font">RETURN DATE:</label><br>
+                                       <input type="date" name="myDate" id="date1" class="date">
+                                     </td> 
+                                     <script>
+                                         var date=new Date();
+                                         var tdate=date.getDate();
+                                         var month=date.getMonth()+1;
+                                         if(tdate<10){
+                                             tdate='0' + tdate;
+                                         }
+                                         if(month<10){
+                                             month='0' + month;
+                                         }
+                                         var year=date.getUTCFullYear();
+                                         var minDate=year+"-"+month+"-"+tdate;
+                                         document.getElementById("date").setAttribute('min',minDate);
+
+                                         var date1=new Date();
+                                         var tdate1=date.getDate()+1;
+                                         var month1=date.getMonth()+1;
+                                         if(tdate1<10){
+                                             tdate1='0' + tdate1;
+                                         }
+                                         if(month1<10){
+                                             month1='0' + month1;
+                                         }
+                                         var year1=date.getUTCFullYear();
+                                         var minDate1=year1+"-"+month1+"-"+tdate1;
+
+
+
+
+
+                                         document.getElementById("date1").setAttribute('min',minDate1);
+                                         console.log(minDate1);
+                                     </script>                             
+                         </tr>
+                        </div>
+                    </table>   
+
+                   <br>
+                       
+                     
+                        &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+                        &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+                        
+                        <input id="Book" type="submit" value="Book" >
+                        <br><br>
+                        <div id="outer_img">
+                            <div id="inner_img-1">
+                                 <img src="Image/lp.png" alt="" >
+                                 <div class="inner-word">
+                                    <b>Lowest Price Guarantee</b>
+                                    <p>
+                                        Lowest Price Guarantee on <br> Flight Tickets
+                                    </p>
+                                 </div>
+                            </div>
+                            <div id="inner_img-2">
+                                <img src= "Image/sb.png"  alt="" >
+                                <div class="inner-word">
+                                   <b>Safe Booking</b> 
+                                   <p>
+                                    All Flight bookings are 100% <br>Safe & Secure
+                                   </p>
+                                 </div>
+                           </div>
+                        </div>
+                           <div id="inner_img-3">
+                            <img src="Image/r.png" alt="" >
+                            <div class="inner-word">
+                                <b>Rewards</b>
+                                <p>
+                                    Book More & Get Free Flights Trip
+                                </p>
+                             </div>
+                             <div>
+                                <img src="Image/airplane-ticket.png" id="ticket_img">
+                            </div>   
+                             </div> 
+                                                
+                </form>               
+               
+            </fieldset>
+            <fieldset id="ad_field1" >
+                <div class="slider" style="position: absolute; right: 20px;">
+                    <div class="slides">
+                        <input type="radio" name="radio-btn" id="radio1">
+                        <input type="radio" name="radio-btn" id="radio2">
+                        <input type="radio" name="radio-btn" id="radio3">
+                        <input type="radio" name="radio-btn" id="radio4">
+                        <input type="radio" name="radio-btn" id="radio5">
+
+                        <div class="slide first">
+                           <img src="airplane.png" alt="" id="img">
+                        </div>
+                        <div class="slide">
+                            <img src="build.png" alt="" id="img">
+                         </div>
+                         <div class="slide">
+                            <img src="terminal.png" alt="" id="img">
+                         </div>
+                         <div class="slide">
+                            <img src="plane.png" alt="" id="img">
+                         </div>
+                         <div class="slide">
+                            <img src="man.png" alt="" id="img">
+                         </div>
+                         <div class="navigation-auto">
+                             <div class="auto-btn1"></div>
+                             <div class="auto-btn2"></div>
+                             <div class="auto-btn3"></div>
+                             <div class="auto-btn4"></div>
+                             <div class="auto-btn5"></div>                             
+                         </div>
+                       </div>
+     
+                    <div class="navigative-manual">
+                        <label for="radio1" class="manual-btn"></label>
+                        <label for="radio2" class="manual-btn"></label>
+                        <label for="radio3" class="manual-btn"></label>
+                        <label for="radio4" class="manual-btn"></label>
+                        <label for="radio5" class="manual-btn"></label>
+                    </div>
+                </div>
+                <script type="text/javascript">
+                      var counter=1;
+                      setInterval(function(){
+                          document.getElementById('radio'+ counter).checked=true;
+                          counter++;
+                          if(counter >5){
+                              counter=1;
+                          }
+                      },2000);
+                </script>
+            </fieldset>
+        </div><br><br>
+       <div>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/Glide.js/3.4.1/glide.js" 
+        integrity="sha512-isL0X0NIGuM6rzb9zZ0J18tMNlRCDaLew8hfE85AtQUWuM675YRoFovkbUeKssvgQMGg8YQMZ/eJMm8C/bH9HA==" 
+        crossorigin="anonymous" referrerpolicy="no-referrer">
+</script>
+<div class="main">
+   <div class="col-8">
+    <h1>Top Domestic Routes</h1>
+    <div class="glide">
+      <div class="glide__track" data-glide-el="track">
+        <ul class="glide__slides">
+          <li class="glide__slide"><img  id="adimg" src="Image/poster1.png"></li>
+          <li class="glide__slide"><img  id="adimg" src="Image/poster2.png"></li>
+          <li class="glide__slide"><img  id="adimg" src="Image/poster3.png"></li>
+          <li class="glide__slide"><img  id="adimg" src="Image/poster4.png"></li>
+          <li class="glide__slide"><img  id="adimg" src="Image/poster5.png"></li>
+          <li class="glide__slide"><img  id="adimg" src="Image/poster1.png"></li>
+          <li class="glide__slide"><img  id="adimg" src="Image/poster2.png"></li>
+          <li class="glide__slide"><img  id="adimg" src="Image/poster3.png"></li>
+          <li class="glide__slide"><img  id="adimg" src="Image/poster4.png"></li>
+          <li class="glide__slide"><img  id="adimg" src="Image/poster5.png"></li>
+        </ul>
+      </div>
+      <div class="glide__arrows" data-glide-el="controls">
+        <button class="glide__arrow glide__arrow--left" data-glide-dir="<"><h1 id="left_arrow1"><</h1></button>
+        <button class="glide__arrow glide__arrow--right" data-glide-dir=">"><h1 id="left_arrow1">></h1></button>
+      </div>
+    </div>
+   </div>
+</div>
+<script>
+  new Glide('.glide', {
+type: 'carousel',
+startAt: 0,
+perView: 3,
+focusAt:'center',
+}).mount()
+</script>
+       </div>
+       <fieldset id="ad_field2" ></fieldset>
+        <fieldset id="ad_field3" style="width: 100%;background-image: url('Image/back.png'); ">
+            <div id="flex2">&emsp;&emsp;&emsp;&emsp;
+            <fieldset id="footer" >
+                <div>
+                    <strong id="inner1">CONTACT US</strong>
+                    <ul id="ul1" >
+                        <li><a href="frame's/Contact_us_1.html" target="_parent" id="text1" >Our Network</a></li><br>
+                        <li><a href="frame's/Contact_us_2.html" target="_parent" id="text1" >Customer Support</a></li><br>
+                        <li><a href="frame's/Contact_us_3.html" target="_parent" id="text1" >Our Offices</a></li><br>
+                    </ul>
+                </div>
+                
+            </fieldset>
+            <fieldset id="footer1">
+                <div>
+                    <strong id="inner1">INFORMATION</strong>
+                    <ul id="ul1">
+                        <li><a href="frame's/info-1.html" target="_parent" id="text1" >Terms & Conditions</a></li><br>
+                        <li><a href="frame's/info-2.html" target="_parent" id="text1">RTI</a></li><br>
+                        <li><a href="frame's/info-3.html" target="_parent" id="text1">Tenders</a></li><br>
+                        <li><a href="frame's/info-5.html" target="_parent" id="text1">GST</a></li><br>
+                        <li><a href="frame's/info-7.html" target="_parent"  id="text1">Cancellations and refunds</a></li><br>
+                        <li><a href="frame's/info-6.html" target="_parent" id="text1">Privacy</a></li><br>
+                        <li><a href="frame's/info-4.html" target="_parent"  id="text1">Passenger Charter issued by MOCA</a></li><br>
+                    </ul>
+                </div>
+            </fieldset>
+            <fieldset id="footer2">
+                <div>
+                    <strong id="inner1">ABOUT US</strong>
+                 
+                    <ul id="ul1">
+                        <li><a href="frame's/about_us_1.html" target="_parent" id="text1" >Our Company</a></li><br>
+                        <li><a href="frame's/about_us_2.html" target="_parent" id="text1">Our management</a></li><br>
+                        <li><a href="frame's/about_us_3.html" target="_parent" id="text1">Connections</a></li><br>
+                        <li><a href="frame's/about_us_4.html" target="_parent" id="text1">CSR</a></li><br>
+                        <li><a href="frame's/about_us_5.html" target="_parent" id="text1">Tata airlines cargo Services</a></li><br>
+                        <li><a href="frame's/about_us_6.html" target="_parent" id="text1">Form MGT-9</a></li><br>
+                    </ul>
+                </div>
+            </fieldset>
+
+            <fieldset id="footer3">
+                <strong id="inner1">FAQ</strong>
+                <ul id="ul1">
+                    <li><a href="frame's/FQA-1.html" target="_parent"  id="text1">General</a></li>
+                    <br>
+                    <li><a href="frame's/FQA-2.html" target="_parent"  id="text1">COVID-19 Travel</a></li>
+                    <br>
+                    <li><a href="frame's/FQA-3.html" target="_parent"  id="text1">COVID-19 Travel Voucher</a></li></ul>
+            </fieldset>
+            <fieldset id="footer4" style="position: absolute; right:10px;">
+                <img src="Image/20211030_183129.png" id="logo_img1"/><br><br>
+                <div >
+                    <img src="Image/copyright.png"  id="copyright" >&nbsp;2024 Tata airlines india Private limited
+                    <h3 style="color: black;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        &nbsp;&nbsp;&nbsp;Powered by <span id="tata1"style="color: black;">TATA GROUPS</span></h3>
+                </div>
+            </fieldset>
+        </div>
+        </fieldset>
+        <script src="index.js"></script>
+    </body>
+</html>

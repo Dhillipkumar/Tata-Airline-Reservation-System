@@ -1,0 +1,214 @@
+.cheak_box1{
+    height:35px;
+    width: 80px;
+    border: none;
+    border-radius: 8px;
+}
+#title_card{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+}
+#arrowimage{
+    width:50px;
+    height: 50px;
+
+}
+#fieldset_1{
+    background-color: rgba(245, 122, 8, 0.925);
+    border-radius: 8px;
+    border: none;
+    width:600px;
+    margin-left: 320px;
+
+}
+#fieldset_2{
+    background-color: rgba(245, 122, 8, 0.925);
+    border-radius: 8px;
+    border: none;
+    width:600px;
+  
+}
+#departing{
+    text-decoration: underline;
+    color: rgb(255, 255, 255);
+    text-underline-position: under;
+    font-size: 27.5px;
+}
+#calendar{
+    width:28px;
+    height: 28px; float: left;
+    align-items:center;
+    display: flex;   
+}
+#date_1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 25px;
+    position: relative;
+    top:2px;
+}
+#flex{
+    display: flex;
+}
+#date_2{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 25px;
+    position: relative;
+    top:2px;
+}
+
+#mini_field{
+    width: 550px;
+    height: 120px;
+    border:none;
+    background-color: rgba(255, 255, 255, 0.925);
+    border-radius: 8px;
+    border: none;
+    width:600px;
+    margin-left: 320px;
+}
+#mini_field2{
+    width: 550px;
+    height: 120px;
+    border:none;
+    background-color: rgba(255, 255, 255, 0.925);
+    border-radius: 8px;
+    border: none;
+    width:600px;
+    
+}
+
+#fieldset_4{
+    border-radius: 8px;
+    width:910px;
+   
+    background-color: rgb(25, 25, 68);
+    border: none;
+}
+
+#fieldset_5{
+  border-radius: 8px;
+    width:920px;
+    height:250px;
+    background-color: rgb(25, 25, 68);
+    border: none;
+}
+#p_field{
+    color: white;
+}
+#title_card{
+    color: white;
+}
+#button{
+    color: black;
+      font-family: Georgia, serif;
+   
+      width: 80px;
+      height: 35px;
+      font-size: 18px;
+      border: none;
+      cursor: pointer;
+      background-color: white;
+      border-radius: 5px;
+}
+#button:hover {
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+  background-color:red;
+  color: white;
+}
+#Price{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 27px;
+    position: relative;
+
+}
+#Price1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 27px;
+    position: relative;
+
+}
+#side{
+    font-size: 27px;
+    position: relative;
+    width:12px
+}
+#rs_logo{
+    position: relative;
+    width:25px;
+    height: 20px;
+    margin-top: 2px;
+}
+#decimal{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 15px;
+}
+#fromto{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(231, 221, 221);
+    font-size: 22px;
+}
+.citys{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgba(245, 122, 8, 0.925);
+    font-size: 25px;
+}
+#f1{
+    width:435px;
+    height: 220px;
+    border: none;
+}
+#f2{
+    width:420px;
+    height: 240px;
+    border: none;
+    background-color: rgba(255, 255, 255, 0.932);
+    border-radius: 8px;
+}
+#tittle{
+    color: white;
+}
+#fare_1{
+    font-family: sans-serif;
+    font-size: 20px;
+}
+#fare,#taxe{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 25px;
+}
+#fare_2{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 25px;
+}
+#total_price_display{
+    border-radius: 10px;
+    width: 380px;
+    height: 42px;
+    margin-left: 12px;
+    border:none;
+    background-color: rgba(12, 12, 12, 0.651);
+}
+#totalpay{
+    font-family: monospace;
+    font-size: 35px;
+    color: white;}
+#fare_3{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 33px;
+    color: white;
+}
+#decimal1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 15px;
+    color: white;
+}
+#total{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 33px;
+    color: white;
+}
+#fill_detial{
+    margin-top: 5px;
+    border-radius: 5px;
+    background-color: rgba(27, 26, 26, 0.692);
+    border: none;
+}

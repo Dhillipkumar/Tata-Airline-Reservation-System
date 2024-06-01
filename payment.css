@@ -1,0 +1,193 @@
+body {
+    font-family: Arial;
+    font-size: 17px;
+    background-color: rgb(23, 24, 63);
+  }
+  
+  #cname,#ccnum,#expmonth{
+      width:500px;
+  }
+  #expyear{
+      width:240px;
+  }
+  #cvv{
+      width: 245px;
+  }
+  #flex{
+    display: flex;
+  }
+  #cardpayment{
+      margin-left: 25%;
+      background-color: rgb(186, 186, 206);
+      width:890px;
+      padding: 15px;
+      border-radius: 8px;
+  
+  }
+  .container1{
+      background-color: rgba(245, 122, 8, 0.925);
+      height: 450px;
+      width: 600px;
+      
+      margin-left: 40px;
+      border: none;
+      border-radius: 12px;
+  }
+  #img{
+      width:50px;
+      height:50px;
+      margin-top: 5px;
+  }
+  #city_1,#city_2{
+      font-size: 50px;
+  }
+  #display{
+    margin-left: 70px;
+    margin-top: 28px;
+    height: 120px;
+    border:none;
+
+  }
+  #formto{
+    font-size: 20px;
+  }
+  #fare_2{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 25px;
+}
+#x{
+  font-size: 20px;
+}
+#styl{
+color: #ffffff;
+}
+
+#total{
+  margin-left: 90px;
+  font-size: 35px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: white;
+}
+#total_money{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 35px;
+  color: white;
+}
+#total{
+ background-color: rgb(241, 10, 10);
+ padding: 5px;
+ border-radius: 5px;
+}
+
+.pop-up{
+  background:rgba(0, 0, 0, 0.336);
+  width:100%;
+  height:100%;
+  position: absolute;
+  top: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.pop-up_content{
+  height: 500px;
+  width:700px;
+  background:#ffff;
+  padding: 20px;
+  border-radius: 5px;
+  position: relative;
+}
+#field1{
+  width:1200px;
+  height: 700px;
+  background-color: rgb(10, 10, 46);
+  border: none;
+  border-radius: 8px;
+}
+#table{
+  margin-left: 50px;
+ 
+}
+#payment{
+  margin-top: 70px;
+  width: 800px;
+  margin-left: 200px;
+  height: 500px;
+  background-color: rgba(255, 255, 255, 0.849);
+  border-radius: 8px;
+}
+#payment h1{
+ text-align: center;
+}
+#payment_shead{
+  font-size: 20px;
+  margin-left: 155px;
+}
+#payment_shead1{
+  width: 450px;
+  height: 40px;
+  margin-left: 155px;
+  font-size: 17px;
+}
+#payment_shead2{
+  margin-left: 155px;
+  width: 120px;
+  height: 35px;
+  font-size: 17px;
+}
+#payment_shead3{
+  margin-left: 44px;
+  width: 120px;
+  height: 35px;
+  font-size: 17px;
+}
+#payment_shead4{
+  margin-left: 28px;
+  width: 120px;
+  height: 35px;
+  font-size: 17px;
+}
+#pay{
+  width: 250px;
+  height: 40px;
+  margin-left: 55px;
+  border-radius: 6px;
+  font-size: 25px;
+  border: none;
+  font-family: Bold;
+}
+#pay:hover{
+  background-color: rgb(95, 241, 10);
+  color: #000000;
+}
+#pay1{
+  width: 150px;
+  height: 40px;
+  margin-left: 155px;
+  border-radius: 6px;
+  font-size: 25px;
+  border: none;
+  font-family: Bold;
+}
+#pay1:hover{
+  background-color: rgb(241, 18, 10);
+  color: #ffffff;
+}
+#pop{
+  background-color: rgba(0, 0, 0, 0.418);
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  display: none;
+  justify-content: center;
+  align-items: center;
+}
+.popup-content{
+  height: 450px;
+  width: 600px;
+  background: #ffff;
+  padding: 20px;
+  border-radius: 8px;
+  position: relative;
+}

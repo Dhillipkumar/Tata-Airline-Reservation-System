@@ -1,0 +1,115 @@
+#body_bg{
+    background-image:url('Image/login_bg.jpg');
+    background-repeat: no-repeat;
+    height:100%; 
+    background-size: cover;
+    background-position: center;
+    background-color: rgba(255, 255, 255, 0.486);
+}
+#field1{
+    background-color:rgba(253, 253, 253, 0.589) ;
+    border: none;
+    width: 1300px;
+    height: auto;
+    box-shadow: 0px 50px 50px 10px rgba(0,0,0,0.24), 0px 50px 50px 10px rgba(0,0,0,0.19);
+}
+#in_2{
+    font-size: 18px;
+    font-family: arial;
+    color: rgba(58, 56, 56, 0.747);
+}
+#in_1{
+    width: 500px;
+    height: 50px;
+    font-size: 18px;
+    font-family: arial;
+}
+#in_2{
+    width: 250px;
+    height: 50px;
+    font-size: 18px;
+    font-family: arial;
+}
+#title-m{
+    width: 100px;
+    height: 40px;
+    font-size: 18px;
+    font-family: arial;
+    
+}
+#title1{
+    text-align: left;
+    margin-left: 11%;
+    color: black;
+}
+#title3{
+    text-align: left;
+    margin-left: 11%;
+
+    
+}
+#title2{
+    text-align: left;
+    margin-left: 11%;
+
+}
+#ps1{
+    font-size: large;
+}
+#in_3{
+    text-align: left;
+    margin-left: 11%;
+}
+#back_1
+{
+    color: rgb(255, 255, 255);
+      font-family: Georgia, serif;
+      padding: 7px;
+      width: 140px;
+      height: 40px;
+      font-size: 25px;
+      border: none;
+      cursor: pointer;
+      background-color: rgb(221, 5, 5);
+      border-radius: 15px;
+      box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+#submit_1{
+    color: rgb(255, 255, 255);
+      font-family: Georgia, serif;
+      padding: 7px;
+      width: 140px;
+      height: 40px;
+      font-size: 25px;
+      border: none;
+      cursor: pointer;
+      background-color: rgb(221, 5, 5);
+      border-radius: 15px;
+      box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+#back_1:hover{    
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+  background-color:rgb(165, 12, 12);
+  color: white;
+}
+#submit_1:hover {
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+  background-color:rgb(165, 12, 12);
+  color: white;
+}
+img{
+    height: 180px;
+    width: 500px;
+    margin-right: 750px;
+
+}
+#tata{
+   
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 60px;
+}
+#DA{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 30px;
+    text-decoration: underline 2px;
+}

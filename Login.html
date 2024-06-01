@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title></title>
+        <link rel="stylesheet" href="Login.css">
+    </head>
+    </head>
+    <body id="body_bg" style="background-image: url('login_bg.png');">
+        <br><br>
+  <form name="myform" method="post" action="Login-page.php"  onsubmit="return validate()">
+        <center>
+            <h1 >Welcome to Tata Domestic Airline</h1>
+        <fieldset Id="field1" style="background-color: lightgray; opacity: 85%;">
+            <div><b>
+                <b><h1 id="title_1">Sign in</h1>
+                <h3 id="title_2">Login and benefit from the convenience of <br>
+                    your personal pages</h3>
+                <h3 id="title_3">New to Tata airline's? Sign Up Now !   </h3></b>
+            </div><br><br>
+            <div>
+                <table>
+                    <tr>
+                        <td>
+                            <input type="email" name="username" class="username" placeholder="Email Address" id="login_in1" >                        
+                        </td><tr></tr><tr></tr><tr></tr>
+                        <td>
+                            <input type="password" name="Password" class="Password" placeholder="Password" id="login_in1">                        
+                        </td>
+                        <tr>
+                            <td>  <input type="checkbox" id="Show" onclick="myFunction()"><span id="show1">Show Password</span></td>
+                        </tr>
+                    </tr>
+                </table><br><br>
+            </div>
+            <div>
+            <input id="Login_1" type="submit" name="save" value="Login"></div>
+            <br><br><br><br><br><br><br><br>
+            <div>
+                <table>
+                    <tr>
+                        <tb><a href="Changing_password.html" target="_parent" id="footer">Forget Password</a></tb>&emsp;&emsp;&emsp;
+                        <tb><a href="Signup.html" target="_parent" id="footer">Sign up</a></tb>
+                    </tr>
+                </table>
+            </b></div>
+        </fieldset>
+    </center> 
+</form>
+<script>
+    function myFunction() {
+
+var x =document.myform.Password;
+
+//var x=document.getElementsByClassName("Password");
+if (x.type == "password") {
+  x.type = "text";
+} else {
+  x.type = "password";
+}
+}
+</script>
+<script src="Loginvalidation.js"></script>
+    </body>
+</html>

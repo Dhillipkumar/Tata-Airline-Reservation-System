@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="payment.css">
+
+
+</head>
+<iframe src=payment_header.html scrolling="no" height=22% width=100% style="border: 0px;" ></iframe>
+<body>
+  <div id="flex">
+<fieldset class="container1">
+   
+    <table id="table">
+        <tr>
+            <td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+            <td><h1><spam id="formto">Form:</spam><br>
+              <span id="city_1"></span></h1></td>
+            <td></td><td></td><td></td>
+            <td> <p></p><br>
+               <img src="" id="img"> </td>
+            <td></td><td></td><td></td>
+            <td>  <h1><spam id="formto">To:</spam><br>
+              <span id="city_2"></span></span></h1></td>
+            </tr>
+    </table>
+
+    <fieldset id="display">
+      <h2>             <span>Adults    &emsp;&emsp; :</span>     <span id="total_adults"></span>        <span id="x">X</span>&nbsp;<span id="fare_2">INR  </span><span id="perhead"></span>&emsp; <br>
+                       <span>Children &emsp; :</span>   <span id="total_children"></span>    <span id="x">X</span>&nbsp;<span id="fare_2">INR  </span><span id="perhead1"></span>&emsp;<br>
+                       <span>Infants   &emsp;&emsp;:</span>     <span id="total_infants"></span>      <span id="x">X</span>&nbsp;<span id="fare_2">INR  0.00</span>&emsp;&emsp;&nbsp;&nbsp;
+                       
+                       <br>
+                       <span id="discount"></span>
+                      
+    </h2><br><br>
+    <span id="total1"> <span id="total">Total: INR <span id="total_money"></span> </span> </span></span>
+    <p>Note*: Per head Rs 1200 (oneway) and Rs 2400 (RoundTrip) tax's</p>
+    </fieldset>
+   
+</fieldset>
+
+<fieldset id="field1">
+  <form  name="paynameForm" method="post" action="payment.php" >
+     <fieldset id="payment">
+              <h1>Payment</h1>
+              <table >
+                <tr>
+                   <tb><label id="payment_shead">Name on Card</label></tb><br>
+                   <input type="text" id="payment_shead1" placeholder="Name" name="Name"><br><br>
+                </tr>
+                
+                <tr>
+                
+                  <tb><label id="payment_shead">Card number</label></tb><br>
+                  <input type="text" id="payment_shead1" placeholder="Card Number" name="card" maxlength="12"><br><br>
+               </tr>
+               <tr>
+                <label id="payment_shead">Exp Month&emsp;&emsp;&emsp;&nbsp;&nbsp;&nbsp;Exp Year&emsp;&emsp;&emsp;&nbsp;&nbsp;&nbsp;CVV</label><br>
+                   <input type="text" id="payment_shead2" placeholder="Month" name="Month" maxlength="2">
+                   <input type="text" id="payment_shead3" placeholder="2024"  name="Year" maxlength="4">
+                   <input type="text" id="payment_shead4" placeholder="235" name="cvv" maxlength="3">
+             </tr>
+            </table>
+            <br><br>
+    <input type="submit" id="pay1" onclick="cancelpayment()" value="Cancel"><input type="submit" id="pay" value="Pay Now"  onclick="return validation()"><br><br>
+
+
+            <input type="hidden" name="pnrnumber" id="pnrnumber">
+            <input type="hidden" name="citynameform" id="citynameform">
+            <input type="hidden" name="citynameto" id="citynameto">
+            <input type="hidden" name="type" id="type">
+            <input type="hidden" name="oneway_Date" id="oneway_Date">
+            <input type="hidden" name="flight_timing" id="flighttiming">
+            <input type="hidden" name="RoundTrip_date" id="RoundTrip_date">
+            <input type="hidden" name="returnflight_timing" id="returnflight_timing">
+            <input type="hidden" name="Total_passengers" id="Total_passengers">
+            <input type="hidden" name="Total_Amount" id="Total_Amount">
+           
+     </fieldset>
+  </form>
+
+    </fieldset>
+
+</div>
+<script src="payment.js"></script>
+    
+</body>
+</html>

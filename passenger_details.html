@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+
+        </title>
+    </head>
+    <link rel="stylesheet" href="passenger_details.css">
+<iframe src=header.html scrolling="no" height=22% width=100% style="border: 0px;" ></iframe>
+<body style="background-color: rgb(31, 31, 102);">
+
+    <div id="flex">
+<fieldset id="fieldset_1">
+<table >
+    <a id="departing">DEPARTING</a>
+<th></th>
+<tr>
+<td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+<td><h1><span id="city"></span></h1></td>
+<td></td><td></td><td></td>
+<td>  <img src="Image/right-arrow.png" id="arrowimage"> </td>
+<td></td><td></td><td></td>
+<td>  <h1><span id="city1"></span></h1></td>
+</tr>
+<tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+     <td colspan="13"><img src="Image/calendar.png" id="calendar">&ensp;<span id="date_1"></span>&ensp;&ensp;&ensp;<span id="side">|</span>&ensp;&ensp;<span><img src="Image/rupee-indian.png" id="rs_logo"></span><span id="Price"></span>
+    <span id="decimal">.00</span></td>
+</tr>
+</table></fieldset>
+
+<fieldset id="fieldset_2">
+    <table >
+        <a id="departing">RETURN</a>
+    <th></th>
+    <tr>
+    <td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+    <td><h1><span id="return2"></span></h1></td>
+    <td></td>
+    <td>  <img src="Image/right-arrow.png" id="arrowimage"> </td>
+    <td></td>
+    <td>  <h1><span id="return1" ></span></h1></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+    </tr>
+    <tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+         <td colspan="22"><img src="Image/calendar.png" id="calendar">&ensp;<span id="date_2"></span>&ensp;&ensp;&ensp;<span id="side">|</span>&ensp;&ensp;<span><img src="Image/rupee-indian.png" id="rs_logo"></span><span id="Price1"></span>
+            <span id="decimal">.00</span><span id="discount">&ensp;(With Rs.2000 discount)</span></td>
+    </tr>
+    </table></fieldset>
+</div><br>
+
+  <div id="flex">
+        
+           <fieldset id="mini_field">
+            <h2>Oneway Timing:</h2>
+               <input type="radio" name="browser" id="radio1" value="(10:30 AM)">10:30 AM
+               &emsp;&emsp; &emsp;
+               <input type="radio" name="browser"  id="radio2" value="(02:30 PM)">02:30 PM
+               &emsp;&emsp; &emsp;
+               <input type="radio" name="browser"  id="radio3" value="(05:30 PM)">05:30 PM<br>
+              
+
+           </fieldset>
+        <fieldset id="mini_field2">
+            <h2>Round Trip Timing:</h2>
+            <input type="radio" name="browser1"  id="radio4" value="(10:30 AM)">10:30 AM
+               &emsp;&emsp; &emsp;
+               <input type="radio" name="browser1"  id="radio5" value="(02:30 PM)">02:30 PM
+               &emsp;&emsp; &emsp;
+               <input type="radio" name="browser1"  id="radio6" value="(05:30 PM)">05:30 PM
+        </fieldset>
+       
+  </div><br>
+  <div>
+     
+  </div>
+<div id="flex">
+   
+    <fieldset id="fieldset_4">
+        <h1 id="p_field">Passenger Information</h1><br>
+        <div>&emsp14;&emsp14;&emsp14;&emsp14;&emsp14;&emsp14;&emsp14;&emsp14;&emsp14;&emsp14;&emsp14;&emsp14;&emsp14;&emsp14;&emsp14;&emsp14;&emsp14;&emsp14;&emsp14;&emsp14;&emsp14;&emsp14;&emsp14;&emsp14;
+        <label for="adults" id="title_card">Adults:</label>
+        <select class="cheak_box1" id="adults" >
+            <option value="1" name="1">1</option>
+            <option value="2" name="2">2</option>
+            <option value="3" name="3">3</option>
+            <option value="4" name="4">4</option>
+            <option value="5" name="5">5</option>
+            <option value="6" name="6">6</option>
+            <option value="7" name="7">7</option>
+            <option value="8" name="8">8</option>
+            <option value="9" name="9">9</option>
+        </select>&emsp14;&emsp14;&emsp14;&emsp14;&emsp14;&emsp14;&emsp14;&emsp14;&emsp14;&emsp14;&emsp14;&emsp14;
+        <label for="adults" id="title_card">Children:</label>
+        <select class="cheak_box1" id="Children">
+            <option value="0" name="0">0</option>
+            <option value="1" name="1">1</option>
+            <option value="2" name="2">2</option>
+            <option value="3" name="3">3</option>
+            <option value="4" name="4">4</option>
+        </select>&emsp14;&emsp14;&emsp14;&emsp14;&emsp14;&emsp14;&emsp14;&emsp14;&emsp14;&emsp14;&emsp14;&emsp14;
+          <label for="adults" id="title_card">Infants:</label>
+        <select class="cheak_box1" id="infants">
+            <option value="0" name="0">0</option>
+            <option value="1" name="1">1</option>
+            <option value="2" name="2">2</option>
+            <option value="3" name="3">3</option>
+            <option value="4" name="4">4</option>
+        </select>   <span id="timing1"></span>  <span id="timing2"></span>&emsp14;&emsp14;&emsp14;&emsp14;&emsp14;&emsp14;&emsp14;&emsp14;&emsp14;&emsp14;&emsp14;&emsp14;<button onclick="return finall()" id="button" style="background-color: rgba(245, 122, 8, 0.925);">OK</button></div>
+       <br>
+<div style="color: white;">
+       <h4 style="color: tomato;">Note:</h4>
+       <p>&emsp14;&emsp14;&emsp14; 
+           1) &emsp14;Adults   : Age above 12years&emsp14;&emsp14;&emsp14;&emsp14;&emsp14;
+           2) &emsp14;Children : Age 2years-12years&emsp14;&emsp14;&emsp14;&emsp14;&emsp14;
+           3) &emsp14;Infants  : Age 2 weeks to 2years
+       </p>
+    </div>
+    </fieldset>&emsp14;&emsp14;
+    <fieldset id="fieldset_5">
+       
+        <div id="flex">
+            <fieldset id="f1">
+                <h1 id="tittle">Flight Summary</h1>
+                    <span id="fromto">From &emsp14;:</span>&emsp14;<span id="placeform"  class="citys"></span><br>
+                    <span  id="fromto">To &emsp14;&emsp14;&emsp14;&emsp14;&emsp14;&emsp14;:</span>&emsp14;<span id="placeto" class="citys"></span><br><br>
+                        <span id="fromto">Departure Date&emsp14;:</span>&emsp14;<span id="Departuredate"  class="citys"></span><br>
+                        <span  id="fromto">Return Date&emsp14;&emsp14;&emsp14;&emsp14;&emsp14;&emsp14;&emsp14;:</span>&emsp14;<span id="Returndate" class="citys">
+        
+                    </h1>
+            </fieldset>
+            <fieldset id="f2"><br><br>
+
+                &emsp14;&emsp14;&emsp14;&emsp14;&emsp14;&emsp14; <span id="fare_1">Fare &emsp14;&emsp14;&emsp14;&emsp14;&emsp14;&emsp14;&emsp14;&emsp14;&emsp14;&emsp14;&emsp14;&emsp14;&emsp14;&emsp14;&emsp14;&emsp14;
+                    :&emsp14;&emsp14;<span id="fare_2">INR</span>&emsp14;</span>&emsp14;<span id="fare"></span> <span id="decimal">.00</span></span>
+                <br><br>
+                &emsp14;&emsp14;&emsp14;&emsp14;&emsp14;&emsp14; <span id="fare_1">Taxes & Fees &emsp14;:&emsp14;&emsp14;<span id="fare_2">INR</span>&emsp14;</span>&emsp14;<span id="taxe"></span> <span id="decimal">.00</span></span>
+            <br><br><br><fieldset id="total_price_display">
+                <span id="totalpay">Total &emsp14;:<span id="fare_3">INR</span>&emsp14;</span>&emsp14;<span id="total"></span> <span id="decimal1">.00</span>
+            </fieldset >
+            </fieldset>
+        </div>
+        
+    </fieldset>
+
+</div>
+
+<fieldset id="fill_detial"><h1 id="p_field" style="text-align: center;color: rgba(245, 122, 8, 0.925);text-decoration: underline;text-underline-position: under;">Fill Passenger Details</h1></fieldset>
+<script src="passenger_details.js"></script><br>
+</body>
+</html>
